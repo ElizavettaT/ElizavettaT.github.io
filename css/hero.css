@@ -1,0 +1,28 @@
+.hero{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    border: 2px solid #ececec;
+    border-top: 2px solid #E85A4F;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .hero{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column: 1 / -1;
+        grid-row: 3 / 4;
+    }
+}
+
+.authorbox img{
+    border-radius: 50%;
+    float: left;
+    margin: 0 10px 5px 10px;
+    width: 50%;
+}
+
+.authorbox{
+    color: #4c4c4a;
+    margin: 20px 5px 20px 10px;
+}
