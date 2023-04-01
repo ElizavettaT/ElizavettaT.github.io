@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@100;300;400&display=swap');
 @import url("hero.css");
 @import url("extra.css");
+@import url("header.css");
 
 * {
     margin: 0;
@@ -24,18 +25,6 @@ body {
     grid-row-gap: 15px;
 }
 
-header {
-    grid-column: 1 / 4;
-    grid-row: 1 / 2;
-    color: #E85A4F;
-    text-align: center;
-    margin-top: 10px;
-    padding-top: 20px;
-    text-transform: uppercase;
-    border-bottom: 2px solid #8E8D8A;
-    border-top: 2px solid #E85A4F;
-}
-
 a {
     text-decoration: none;
     color: #8E8D8A;
@@ -44,27 +33,6 @@ a {
 
 a:hover {
     color: #E85A4F
-}
-
-header nav ul {
-    display: flex;
-    align-items: baseline;
-    list-style-type: none;
-    text-align: center;
-    justify-content: space-around;
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
-
-@media screen and (max-width: 600px) {
-    header nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-header nav li {
-    margin-right: 30px;
 }
 
 .main {
