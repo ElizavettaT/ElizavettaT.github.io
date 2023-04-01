@@ -57,6 +57,7 @@ a:hover {
 
 .info {
     display: flex;
+    flex-wrap: wrap;
     align-content: space-around;
     justify-content: space-around;
 }
@@ -84,6 +85,15 @@ a:hover {
     margin-bottom: 10px;
 }
 
+.card p {
+    background-color: #EAE7DC;
+    color: #E85A4F;
+    font-size: 1.50em;
+    font-style: italic;
+    text-align: center;
+    margin: 10px 15px 15px 15px;
+}
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
@@ -100,6 +110,20 @@ a:hover {
 img {
     border-radius: 5px 5px 0 0;
     width: 100%;
+}
+
+figcaption {
+    background-color: #EAE7DC;
+    color: #8E8D8A;
+    font-style: italic;
+    font-size: smaller;
+    padding: 2px;
+    text-align: center;
+}
+
+blockquote {
+    font-style: italic;
+    color: #E85A4F;
 }
 
 footer {
